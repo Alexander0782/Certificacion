@@ -1,0 +1,100 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Arial;
+}
+body{
+    width: 1200px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: solid 2px;
+}
+header .div1{
+    display: flex;
+    align-items: center;
+}
+.Boton-H-1{
+    color: white;
+    background: #0b5295;
+    padding: 2px;
+    border: black solid 2px;
+}
+.Boton-H-2{
+    background: #a6c1f8;
+    padding: 2px;
+    border: black solid 2px;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.section-1 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+.section-1 ul li{
+    list-style: none;
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background: #a6c1f8;
+    height: 40px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+}
+.img-x{
+    width: 190px;
+    height: 320px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+main section{
+    display: flex;
+}
+main div{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+article ul li{
+    display: flex;
+}
+article{
+    width: 200px;
+    height: 380px;
+    padding: 10px;
+    transition: 0.5s;
+}
+article:hover{
+    border: solid 3px;
+    padding: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    background: #0b5295;
+    height: 40px;
+}

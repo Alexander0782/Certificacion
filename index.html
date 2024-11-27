@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="div1">
+            <h1>Librioteca</h1> 
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="div2">
+            <button class="Boton-H-1" onclick="InicioSesion()">Inicio de sesión</button>
+            <button class="Boton-H-2">Registro</button>
+        </div>
+    </header>
+
+    <section class="section-1">
+        <ul>
+            <li><img src="img/libro.png" alt=""> <h2>Elige tu libro</h2></li>
+            <li><img src="img/check.png" alt=""> <h2>Revisa disponivilidad</h2></li>
+            <li><img src="img/separalo.png" alt=""> <h2>Sepáralo</h2></li>
+            <li><img src="img/shipping.png" alt=""> <h2>Recíbelo</h2></li>
+        </ul>
+    </section>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="CambiarTexto('Ficción')">Ficción</a></li>
+            <li><a href="#" onclick="CambiarTexto('Histórico')">Histórico</a></li>
+            <li><a href="#" onclick="CambiarTexto('Tecnología')">Tecnología</a></li>
+            <li><a href="#" onclick="CambiarTexto('Autoayuda')">Autoayuda</a></li>
+            <li><a href="#" onclick="CambiarTexto('Poesía')">Poesía</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div><h1 id="titulo">Todos los libros</h1></div>
+        <section>
+            <article class="article-1">
+                <ul>
+                    <li><img src="img/cien.jpg" alt="" class="img-x"></li>
+                    <li><p>Cien Años de Soledad</p></li>
+                    <li><p style="font-weight: bold;">Gabriel Garcia Márquez</p></li>
+                    <li><button class="Boton-H-2" onclick="Rentar(this)">Rentar</button></li>
+                </ul>
+            </article>
+
+            <article class="article-2">
+                <ul>
+                    <li><img src="img/rayuela.jpg" alt="" class="img-x"></li>
+                    <li><p>Rayuela</p></li>
+                    <li><p style="font-weight: bold;">Julio Cortázar</p></li>
+                    <li><button class="Boton-H-2" onclick="Rentar(this)">Rentar</button></li>
+                </ul>
+            </article>
+
+            <article class="article-3">
+                <ul>
+                    <li><img src="img/travesuras.jpg" alt="" class="img-x"></li>
+                    <li><p>Travesuras de la Niña Mala</p></li>
+                    <li><p style="font-weight: bold;">Mario Vargas Llosa</p></li>
+                    <li><button class="Boton-H-2" onclick="Rentar(this)">Rentar</button></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer> <p>Todos los derechos reservados. Libroteca</p></footer>
+
+</body>
+</html>
